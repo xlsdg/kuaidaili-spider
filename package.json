@@ -1,0 +1,35 @@
+{
+  "name": "kuaidaili-spider",
+  "version": "1.0.0",
+  "description": "A kuaidaili free proxy spider",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xlsdg/kuaidaili-spider.git"
+  },
+  "keywords": [
+    "kuaidaili",
+    "spider"
+  ],
+  "author": "xLsDg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xlsdg/kuaidaili-spider/issues"
+  },
+  "homepage": "https://github.com/xlsdg/kuaidaili-spider#readme",
+  "dependencies": {
+    "async": "^2.1.2",
+    "bunyan": "^1.8.4",
+    "chalk": "^1.1.3",
+    "cheerio": "^0.22.0",
+    "inquirer": "^1.2.2",
+    "lodash": "^4.16.6",
+    "moment": "^2.15.2",
+    "request": "^2.78.0",
+    "request-promise-native": "^1.0.3",
+    "tough-cookie-kit": "^0.1.1"
+  }
+}
