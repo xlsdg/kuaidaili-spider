@@ -172,7 +172,7 @@ function postJson(url, headers, json) {
     let options = {
         'url': url,
         'headers': headers,
-        'body': json,
+        'form': json,
         'json': true
     };
     return post(options);
