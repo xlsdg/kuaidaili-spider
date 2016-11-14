@@ -62,7 +62,7 @@ function main() {
             }
         });
         return procTask(arrTask, 4, function(res) {
-            return Fs.writeFile('ips.txt', JSON.stringify(gLstIP), 'utf8', function(err) {
+            return Fs.writeFileSync('ips.txt', JSON.stringify(gLstIP), 'utf8', function(err) {
                 if (err) throw err;
                 console.log(`耗时: ${new Date().getTime() - startTime} ms`);
             });
